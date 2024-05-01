@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    background-color: rgb(13, 17, 23);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E6EDE5;
+}
+
+#cpu-logo {
+    width: 6%;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+label {
+    font-size: 14px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-box {
+    background-color: #161B22;
+    border: #292E35 solid 1px;
+    
+    padding: 16px;
+    border-radius: 5px;
+    width: 35%;
+}
+
+#register, #login-via {
+    background-color: #0D1117;
+}
+
+#login-via {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-via-button {
+    border-radius: 5px;
+    border: #292E35 solid 1px;
+    padding: 8px;
+
+    background-color: #161B22;
+    color: #E6EDE5;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#login-via-github #github {
+    color: lightsteelblue;
+}
+
+#login-via-microsoft #microsoft {
+    color: #d69b11;
+}
+
+.text-input {
+    color: blue;
+    background-color: #0D1117;
+    border: #292E35 solid 1px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+#username-label {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 5px;
+}
+
+#password-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+    a {
+        font-size: 12px;
+    }
+}
+
+#submit {
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    padding: 8px;
+    background-color: #29903B;
+    color: #E6EDE5;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
